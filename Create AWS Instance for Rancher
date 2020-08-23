@@ -1,0 +1,9 @@
+Sign in to the Amazon EC2 console. Then, choose Launch Instance.
+Limit the AMIs in the list by selecting the Free Tier only box. Then, next to an eligible AMI, choose Select.
+Select an instance size that is labeled "Free Tier eligible." Then, choose Next: Configure Instance Details.
+On the Configure Instance Details page, be sure that Instance Tenancy is set to Shared, and that Request Spot instances is not selected. All other settings do not affect whether the instance's usage is covered by the AWS Free Tier, and you can configure them as you like. When you're ready to continue, choose Next: Add Storage.
+Choose up to 30 GB of storage. Under Storage Type, choose either General Purpose SSD (GP2) or Magnetic. Then, choose Next: Tag Instance.
+Note: Currently, only 30 GB of Amazon Elastic Block Store (Amazon EBS) storage per account is covered under the Free Tier. Consider any storage you allocate to other instances on your account when adding storage to your instance.
+Optionally, add a tag to your instance. Then, choose Next: Configure Security Group.
+Configure a security group that allows only trusted traffic in and out. For more information about configuring security groups, see Amazon EC2 Security Groups for Windows Instances. Choose Review and Launch.
+Review your configuration. If it matches your specifications, choose Launch.
